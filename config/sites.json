@@ -1,0 +1,50 @@
+[
+  {
+    "url":"https://compragamer.com/",
+    "searchBar":"#searchQuery",
+    "searchBarButton":"#botonBusqueda",
+    "name":".theme_nombreProducto a",
+    "price":".price span",
+    "img":".imagenPrincipal a cgw-item-image img",
+    "productUrl":".imagenPrincipal a",
+    "stockAvailable":".mat-raised-button",
+    "key":{
+      "name":"innerText",
+      "price":"innerText",
+      "img":"src",
+      "productUrl":"href",
+      "stockAvailable":{
+        "key":"disabled",
+        "value":true
+      }
+    },
+    "substr":{
+      "price":2
+    },
+    "priceFormat": "de"
+  },
+  {
+    "url":"https://gezatek.com.ar/",
+    "searchBar":".busqueda_principal input",
+    "searchBarButton":".busqueda_principal button",
+    "name":".product h2 a",
+    "price":".product .w-footer h3",
+    "img":".product a .figure img",
+    "productUrl":".product a",
+    "stockAvailable":".product .w-footer .stock_generico",
+    "key":{
+      "name":"innerText",
+      "price":"innerText",
+      "img":"src",
+      "productUrl":"href",
+      "stockAvailable":{
+        "key":"innerText",
+        "value":"Hay Stock"
+      }
+    },
+    "substr":{
+      "price":13
+    },
+    "priceFormat": "en"
+  }
+]

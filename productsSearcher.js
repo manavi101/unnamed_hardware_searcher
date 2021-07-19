@@ -19,7 +19,7 @@ const DEFAULT_VIEWPORT = {
 
 
 async function  productsSearcher(search,sites) { 
-	const browser = await puppeteer.launch({headless:false,defaultViewport: DEFAULT_VIEWPORT})
+	const browser = await puppeteer.launch({headless:true,defaultViewport: DEFAULT_VIEWPORT})
   const context = await browser.createIncognitoBrowserContext();
   let products = [];
   const promises = sites.map(async (v) =>{
@@ -27,11 +27,6 @@ async function  productsSearcher(search,sites) {
       const site = v;
       const page = await context.newPage()
       await page.goto(site.url,{waitUntil:['domcontentloaded', 'networkidle2']})
-      if(site.popup) {
-        await page.evaluate((site) => {
-          document.querySelector(site.popup).click()
-        },site)
-      }
       switch (site.searchType){
         case "typing":
           await page.waitForSelector(site.searchBar)
@@ -87,7 +82,6 @@ async function  productsSearcher(search,sites) {
   await Promise.all(promises).then(()=>{
     browser.close()
     products.sort((a, b) =>   b.stockAvailable - a.stockAvailable || parseFloat(parseLocaleNumber(a.price,"en")) - parseFloat(parseLocaleNumber(b.price,"en")))
-    fs.writeFileSync('result.json',JSON.stringify(products,null, 2))
   })
   return products
 }

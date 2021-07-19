@@ -1,12 +1,5 @@
 [
   {
-    "name": "Preventa 02 de Agosto - Placa de Video Msi Geforce Rtx 3060 Gaming X 12gb Gddr6",
-    "price": 118.9,
-    "img": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/MSI-RTX-3060-GAMING-X_600.jpg",
-    "productUrl": "https://www.maximus.com.ar/DETALLE/PREVENTA-02-DE-AGOSTO---Placa-de-Video-MSI-GeForce-RTX-3060-GAMING-X-12GB-GDDR6/ITEM_ID=8709/maximus.aspx?PN=MSI-RTX-3060-GAMING-X?GTIN=4719072796327",
-    "stockAvailable": true
-  },
-  {
     "name": "Placa de Video Pny Geforce Rtx 3060 Xlr8 Single Fan Rgb 12gb Gddr6",
     "price": 133.037,
     "img": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/VCG306012SFXPNY_600.jpg",
@@ -60,6 +53,13 @@
     "price": 134999,
     "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/sVnu45uXQempDSGA4wKj/miniatura",
     "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3060#",
+    "stockAvailable": true
+  },
+  {
+    "name": "MSI NVIDIA RTX 3060 TI VENTUS 2X OCV1 8GB GDDR6 PCIe 4.0 LHR",
+    "price": 174995,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2757_5EB3PO9NYO.jpg",
+    "productUrl": "https://www.logg.com.ar/PRODUCTOS/PLACA-DE-VIDEO/PLACA-DE-VIDEO-NVIDIA/-Mjc1Nw==/MSI-NVIDIA-RTX-3060-TI-VENTUS-2X-OCV1-8GB-GDDR6-PCIe-4.0-LHR",
     "stockAvailable": true
   },
   {
@@ -119,6 +119,13 @@
     "stockAvailable": false
   },
   {
+    "name": "MSI NVIDIA RTX 3060 GAMING X 12GB GDDR6 Consultar stock",
+    "price": 134995,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2845_RMPNP4R095.jpg",
+    "productUrl": "",
+    "stockAvailable": false
+  },
+  {
     "name": "VIDEO GEFORCE RTX 3060 12GB XLR8 SINGLE FAN RGB",
     "price": 142713,
     "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-3060-12gb-xlr8-single-fan-rgb-0.jpg",
@@ -144,6 +151,13 @@
     "price": 150223,
     "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-3060-12gb-msi-gaming-x-0.jpg",
     "productUrl": "https://www.fullh4rd.com.ar/prod/19380/video-geforce-rtx-3060-12gb-msi-gaming-x",
+    "stockAvailable": false
+  },
+  {
+    "name": "PALIT NVIDIA RTX 3060 DUAL OC 12GB DDR6 PCIe-4.0 Consultar stock",
+    "price": 168985,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2803_YPM4TOBS7I.jpg",
+    "productUrl": "",
     "stockAvailable": false
   },
   {

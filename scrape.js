@@ -1,5 +1,5 @@
 const HttpError = require('./models/http-error')
-const { productsSearcher } = require('./productSearcher.js')
+const { productsSearcher } = require('./productsSearcher.js')
 const sites = require('./config/sites.json')
 
 const search = async (req, res, next) => {

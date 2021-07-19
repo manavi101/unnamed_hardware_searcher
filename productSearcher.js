@@ -28,7 +28,6 @@ async function  productsSearcher(search,sites) {
       const page = await context.newPage()
       await page.goto(site.url,{waitUntil:['domcontentloaded', 'networkidle2']})
       if(site.popup) {
-        console.log("SITE POPUP", site.popup)
         await page.evaluate((site) => {
           document.querySelector(site.popup).click()
         },site)

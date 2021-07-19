@@ -4,10 +4,8 @@ const sites = require('./config/sites.json')
 
 const search = async (req, res, next) => {
   const { searchText } = req.body;
-  console.log("SEARCHTEXT", searchText)
     try {
       productsSearcher(searchText, sites).then(products => {
-        console.log("PRODUCTS",products)
         res.status(200).json(products)
       })
     } catch (error) {

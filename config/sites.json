@@ -1,6 +1,7 @@
 [
   {
     "url":"https://compragamer.com/",
+    "searchRedirect":true,
     "searchType":"input",
     "searchBar":"#searchQuery",
     "searchBarButton":"#botonBusqueda",
@@ -20,12 +21,16 @@
       }
     },
     "substr":{
-      "price":2
+      "price":{
+        "first":1,
+        "final":0
+      }
     },
     "priceFormat": "de"
   },
   {
     "url":"https://gezatek.com.ar/",
+    "searchRedirect":true,
     "searchType":"input",
     "searchBar":".busqueda_principal input",
     "searchBarButton":".busqueda_principal button",
@@ -45,8 +50,69 @@
       }
     },
     "substr":{
-      "price":13
+      "price":{
+        "first":13,
+        "final":0
+      }
     },
     "priceFormat": "en"
+  },
+  {
+    "url":"https://www.logg.com.ar/",
+    "searchRedirect":false,
+    "searchType":"typing",
+    "searchBar":".main-menu div input",
+    "searchBarButton":".main-menu div input",
+    "name":".search-result-title",
+    "price":".search-result-price",
+    "img":".search-result img",
+    "productUrl":".search-result a",
+    "stockAvailable":".search-result-title",
+    "key":{
+      "name":"textContent",
+      "price":"innerText",
+      "img":"src",
+      "productUrl":"href",
+      "stockAvailable":{
+        "key":"childElementCount",
+        "value":0
+      }
+    },
+    "substr":{
+      "price":{
+        "first":1,
+        "final":0
+      }
+    },
+    "priceFormat": "en"
+  },
+  {
+    "url":"https://www.maximus.com.ar/",
+    "searchRedirect":true,
+    "searchType":"input",
+    "searchBar":"#INPUT_BUSCADOR",
+    "searchBarButton":".btn-buscartop",
+    "name":".titprod",
+    "price":".price",
+    "img":".image a img",
+    "productUrl":".titprod",
+    "stockAvailable":".price",
+    "key":{
+      "name":"innerText",
+      "price":"innerText",
+      "img":"src",
+      "productUrl":"href",
+      "stockAvailable":{
+        "key":"hidden",
+        "value":false
+      }
+    },
+    "substr":{
+      "price":{
+        "first":1,
+        "final":2
+      }
+    },
+    "priceFormat": "de"
   }
 ]

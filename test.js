@@ -25,7 +25,7 @@ const DEFAULT_VIEWPORT = {
   deviceScaleFactor: 1,
 };
 async function  productsSearcher(search,sites) { 
-	const browser = await puppeteer.launch({headless:false,defaultViewport: DEFAULT_VIEWPORT})
+	const browser = await puppeteer.launch({headless:true,defaultViewport: DEFAULT_VIEWPORT})
   const context = await browser.createIncognitoBrowserContext();
   let products = [];
   const promises = sites.map(async (v) =>{
@@ -48,10 +48,12 @@ async function  productsSearcher(search,sites) {
             searchBarButton.click()
           },site,search)
       }
-      await page.waitForNavigation({waitUntil:'networkidle2'})
-      //await page.waitForTimeout(2000)
-      //console.log(1)
-      products = products.concat((await page.evaluate ((site) => {
+      if(site.searchRedirect){
+        await page.waitForNavigation({waitUntil:'networkidle0'})
+      }else{
+        await page.waitForTimeout(2000)
+      }
+      const result = (await page.evaluate ((site) => {
         const tmp = {};
         const keys = site.key;
         const substrs = site.substr;
@@ -63,21 +65,23 @@ async function  productsSearcher(search,sites) {
         return tmp.names.map((v,i)=>{
           return {
             name: v[keys.name],
-            price: tmp.prices[i][keys.price].substr(substrs.price),
+            price: tmp.prices[i][keys.price].substr(substrs.price.first,tmp.prices[i][keys.price].length-substrs.price.final-substrs.price.first),
             img: tmp.imgs[i][keys.img],
             productUrl: tmp.productUrls[i][keys.productUrl],
             stockAvailable: (tmp.stockAvailable[i][keys.stockAvailable.key]===keys.stockAvailable.value),
           }
         })
-      },site)).map((v)=>{
+      },site))
+      result.map((v)=>{
         v.price = parseLocaleNumber(v.price,site.priceFormat)
         return v;
-      }))
-      page.close()
+      })
+      products = products.concat(result)
+      await page.close()
       //console.log(2)
       }catch(err){
         console.log(err);
-        browser.close()
+        await browser.close()
         exit(1)
       } 
   },browser,search,products)

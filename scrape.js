@@ -8,7 +8,7 @@ const search = async (req, res, next) => {
     try {
       productsSearcher(searchText, sites).then(products => {
         console.log("PRODUCTS",products)
-        res.sendStatus(200).json(products)
+        res.status(200).json(products)
       })
     } catch (error) {
       return next(

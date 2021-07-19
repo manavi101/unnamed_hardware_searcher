@@ -17,7 +17,8 @@ const DEFAULT_VIEWPORT = {
   deviceScaleFactor: 1,
 };
 
-const productsSearcher = async (search, sites) => { 
+
+async function  productsSearcher(search,sites) { 
 	const browser = await puppeteer.launch({headless:false,defaultViewport: DEFAULT_VIEWPORT})
   const context = await browser.createIncognitoBrowserContext();
   let products = [];
@@ -25,7 +26,13 @@ const productsSearcher = async (search, sites) => {
     try{
       const site = v;
       const page = await context.newPage()
-      await page.goto(site.url,{waitUntil:'domcontentloaded'})
+      await page.goto(site.url,{waitUntil:['domcontentloaded', 'networkidle2']})
+      if(site.popup) {
+        console.log("SITE POPUP", site.popup)
+        await page.evaluate((site) => {
+          document.querySelector(site.popup).click()
+        },site)
+      }
       switch (site.searchType){
         case "typing":
           await page.waitForSelector(site.searchBar)
@@ -41,10 +48,12 @@ const productsSearcher = async (search, sites) => {
             searchBarButton.click()
           },site,search)
       }
-      await page.waitForNavigation({waitUntil:'networkidle2'})
-      //await page.waitForTimeout(2000)
-      //console.log(1)
-      products = products.concat((await page.evaluate ((site) => {
+      if(site.searchRedirect){
+        await page.waitForNavigation({waitUntil:'networkidle0'})
+      }else{
+        await page.waitForTimeout(2000)
+      }
+      const result = (await page.evaluate ((site) => {
         const tmp = {};
         const keys = site.key;
         const substrs = site.substr;
@@ -56,31 +65,32 @@ const productsSearcher = async (search, sites) => {
         return tmp.names.map((v,i)=>{
           return {
             name: v[keys.name],
-            price: tmp.prices[i][keys.price].substr(substrs.price),
+            price: tmp.prices[i][keys.price].substr(substrs.price.first,tmp.prices[i][keys.price].length-substrs.price.final-substrs.price.first),
             img: tmp.imgs[i][keys.img],
             productUrl: tmp.productUrls[i][keys.productUrl],
             stockAvailable: (tmp.stockAvailable[i][keys.stockAvailable.key]===keys.stockAvailable.value),
           }
         })
-      },site)).map((v)=>{
+      },site))
+      result.map((v)=>{
         v.price = parseLocaleNumber(v.price,site.priceFormat)
         return v;
-      }))
-      page.close()
+      })
+      products = products.concat(result)
+      await page.close()
       //console.log(2)
       }catch(err){
         console.log(err);
-        browser.close()
+        await browser.close()
         exit(1)
       } 
   },browser,search,products)
-  Promise.all(promises).then(()=>{
+  await Promise.all(promises).then(()=>{
     browser.close()
     products.sort((a, b) =>   b.stockAvailable - a.stockAvailable || parseFloat(parseLocaleNumber(a.price,"en")) - parseFloat(parseLocaleNumber(b.price,"en")))
-    //fs.writeFileSync('result.json',JSON.stringify(products,null, 2))
-    console.log(products)
+    fs.writeFileSync('result.json',JSON.stringify(products,null, 2))
   })
-  return Promise.resolve(products)
+  return products
 }
 
 module.exports = {

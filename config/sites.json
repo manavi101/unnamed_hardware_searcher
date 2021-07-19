@@ -114,5 +114,35 @@
       }
     },
     "priceFormat": "de"
+  },
+  {
+    "url":"https://www.fullh4rd.com.ar/",
+    "searchRedirect":true,
+    "searchType":"input",
+    "searchBar":"#searchid",
+    "searchBarButton":"#searchbutton",
+    "name":".info h3",
+    "price":".price",
+    "img":".image img",
+    "productUrl":".product-list a",
+    "stockAvailable":".tags span",
+    "key":{
+      "name":"innerText",
+      "price":"innerText",
+      "img":"src",
+      "productUrl":"href",
+      "stockAvailable":{
+        "key":"innerText",
+        "value":"En Stock."
+      }
+    },
+    "substr":{
+      "price":{
+        "first":1,
+        "final":14
+      }
+    },
+    "popup":"#onesignal-slidedown-cancel-button",
+    "priceFormat": "de"
   }
 ]

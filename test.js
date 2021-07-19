@@ -93,4 +93,6 @@ async function  productsSearcher(search,sites) {
 }
 productsSearcher(search,sites)
 
-module.exports = {productsSearcher};
+module.exports = {
+  productsSearcher
+};

@@ -1,268 +1,205 @@
 [
   {
-    "name": "MSI NVIDIA RTX 3070 VENTUS 3X OC 8GB GDDR6 PCI-e 4.0 LHR",
-    "price": 179995,
-    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2987_MEAOIEBX33.jpg",
-    "productUrl": "https://www.logg.com.ar/PRODUCTOS/PLACA-DE-VIDEO/PLACA-DE-VIDEO-NVIDIA/-Mjk4Nw==/MSI-NVIDIA-RTX-3070-VENTUS-3X-OC-8GB-GDDR6-PCI-e-4.0-LHR",
+    "name": "Placa de Video Palit NVIDIA GeForce RTX 3060 DUAL OC 12GB GDDR6",
+    "price": 129999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/JyqJgUhsZZ7qX2z5OUW0/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2563-placa-de-video-palit-nvidia-geforce-rtx-3060-dual-oc-12gb-gddr6.html",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video Palit NVIDIA GeForce RTX 3070 TI GAMING PRO 8GB GDDR6",
-    "price": 199999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/HODQD7rYFK8qehxWZcCm/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2874-placa-de-video-palit-nvidia-geforce-rtx-3070-ti-gaming-pro-8gb-gddr6.html",
+    "name": "Placa de Video Pny Geforce Rtx 3060 Xlr8 Single Fan Rgb 12gb Gddr6",
+    "price": 133037,
+    "img": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/VCG306012SFXPNY_600.jpg",
+    "productUrl": "https://www.maximus.com.ar/DETALLE/Placa-de-Video-PNY-GeForce-RTX-3060-XLR8-Single-Fan-RGB-12GB-GDDR6/ITEM_ID=7923/maximus.aspx?PN=VCG306012SFXPNY?GTIN=751492643953",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video PNY GeForce RTX 3070 8GB GDDR6 UPRISING Dual Fan",
-    "price": 200000,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_23489_Placa_de_Video_PNY_GeForce_RTX_3070_8GB_GDDR6_UPRISING_Dual_Fan_797146c6-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_PNY_GeForce_RTX_3070_8GB_GDDR6_UPRISING_Dual_Fan_11311?criterio=rtx%203070&seccion=3&nro_max=50",
+    "name": "Placa de Video MSI NVIDIA GeForce RTX 3060 Gaming X 12Gb GDDR6",
+    "price": 134999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/0zGBGtbteBuPcRmFDifb/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2563-placa-de-video-palit-nvidia-geforce-rtx-3060-dual-oc-12gb-gddr6.html",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video EVGA NVIDIA GeForce RTX 3070 XC3 Ultra 8Gb GDDR6",
-    "price": 204999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/ZIowkoed7Xet2B5homI5/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2874-placa-de-video-palit-nvidia-geforce-rtx-3070-ti-gaming-pro-8gb-gddr6.html",
+    "name": "Placa de Video MSI NVIDIA GeForce RTX 3060 Ventus 3X 12Gb GDDR6",
+    "price": 134999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/sVnu45uXQempDSGA4wKj/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3060#",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video MSI GeForce RTX 3070 8GB GDDR6 VENTUS X2 OC",
-    "price": 210000,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_23450_Placa_de_Video_MSI_GeForce_RTX_3070_8GB_GDDR6_VENTUS_X2_OC_75fa04fe-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_MSI_GeForce_RTX_3070_8GB_GDDR6_VENTUS_X2_OC_11307?criterio=rtx%203070&seccion=3&nro_max=50",
+    "name": "MSI NVIDIA RTX 3060 TI VENTUS 2X OCV1 8GB GDDR6 PCIe 4.0 LHR",
+    "price": 174995,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2757_5EB3PO9NYO.jpg",
+    "productUrl": "https://www.logg.com.ar/PRODUCTOS/PLACA-DE-VIDEO/PLACA-DE-VIDEO-NVIDIA/-Mjc1Nw==/MSI-NVIDIA-RTX-3060-TI-VENTUS-2X-OCV1-8GB-GDDR6-PCIe-4.0-LHR",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video EVGA GeForce RTX 3070 8GB GDDR6 XC3 ULTRA",
-    "price": 215000,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_24004_Placa_de_Video_EVGA_GeForce_RTX_3070_8GB_GDDR6_XC3_ULTRA_30064430-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_EVGA_GeForce_RTX_3070_8GB_GDDR6_XC3_ULTRA_11530?criterio=rtx%203070&seccion=3&nro_max=50",
+    "name": "Placa de Video MSI GeForce RTX 3060 12GB GDDR6 GAMING X",
+    "price": 175600,
+    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25447_Placa_de_Video_MSI_GeForce_RTX_3060_12GB_GDDR6_GAMING_X_ba9d3b7b-med.jpg",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_MSI_GeForce_RTX_3060_12GB_GDDR6_GAMING_X_11850?criterio=rtx%203060&seccion=3&nro_max=50",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video ASUS GeForce RTX 3070 8GB GDDR6 TUF GAMING OC",
-    "price": 220000,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25063_Placa_de_Video_ASUS_GeForce_RTX_3070_8GB_GDDR6_TUF_GAMING_OC_62a40760-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_ASUS_GeForce_RTX_3070_8GB_GDDR6_TUF_GAMING_OC_11623?criterio=rtx%203070&seccion=3&nro_max=50",
+    "name": "Placa de Video MSI GeForce RTX 3060 12GB GDDR6 GAMING X TRIO",
+    "price": 185000,
+    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25452_Placa_de_Video_MSI_GeForce_RTX_3060_12GB_GDDR6_GAMING_X_TRIO_e5f6f3f3-med.jpg",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_MSI_GeForce_RTX_3060_12GB_GDDR6_GAMING_X_TRIO_11851?criterio=rtx%203060&seccion=3&nro_max=50",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video PNY GeForce RTX 3070 8GB GDDR6 XLR8 EPIC-X RGB Triple Fan",
-    "price": 228000,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25942_Placa_de_Video_PNY_GeForce_RTX_3070_8GB_GDDR6_XLR8_EPIC-X_RGB_Triple_Fan_ad77787a-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_PNY_GeForce_RTX_3070_8GB_GDDR6_XLR8_EPIC_X_RGB_Triple_Fan_11963?criterio=rtx%203070&seccion=3&nro_max=50",
+    "name": "PC Gamer Armada | AMD Ryzen 5 5600X + 16GB + RTX 3060 12Gb",
+    "price": 210999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/xcsxDyyCXQCzYrhAb7jz/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2755-placa-de-video-msi-nvidia-geforce-rtx-3060-gaming-x-12gb-gddr6.html",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video MSI GeForce RTX 3070 Ti 8GB GDDR6 GAMING X TRIO",
-    "price": 240000,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_27023_Placa_de_Video_MSI_GeForce_RTX_3070_Ti_8GB_GDDR6_GAMING_X_TRIO_a79a28e6-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_MSI_GeForce_RTX_3070_Ti_8GB_GDDR6_GAMING_X_TRIO_12218?criterio=rtx%203070&seccion=3&nro_max=50",
+    "name": "Placa de Video MSI GeForce RTX 3060 Ti 8GB GDDR6 Ventus 2X OC",
+    "price": 245000,
+    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_24316_Placa_de_Video_MSI_GeForce_RTX_3060_Ti_8GB_GDDR6_Ventus_2X_OC_a051c1a1-med.jpg",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_MSI_GeForce_RTX_3060_Ti_8GB_GDDR6_Ventus_2X_OC_11609?criterio=rtx%203060&seccion=3&nro_max=50",
     "stockAvailable": true
   },
   {
-    "name": "PC Gamer Armada | Intel Core I7 10700F + 16GB + RTX 3070 TI 8Gb",
-    "price": 283999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/z7HZxcABV2YihGuOTmak/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3070#",
+    "name": "Notebook Gamer Razer Blade 15 15.6\" Intel I7 10750h 16gb Ram 512gb Ssd Rtx 3060 W10h 144hz",
+    "price": 340874,
+    "img": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/RZ09-0369AE22-R3U1_600.jpg",
+    "productUrl": "https://www.maximus.com.ar/DETALLE/Notebook-Gamer-Razer-Blade-15-156-Intel-I7-10750H-16GB-Ram-512GB-SSD-RTX-3060-W10H-144Hz/ITEM_ID=8626/maximus.aspx?PN=RZ09-0369AE22-R3U1?GTIN=0814855024063",
     "stockAvailable": true
   },
   {
-    "name": "PC Gamer Armada | AMD Ryzen 7 3700X + 16GB + RTX 3070 TI 8Gb",
-    "price": 288999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/0C0ZWROuq2nWag7npST7/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2338-placa-de-video-evga-nvidia-geforce-rtx-3070-xc3-ultra-8gb-gddr6.html",
+    "name": "Notebook ASUS ROG Zephyrus G14 AMD Ryzen 9 5900HS | 32GB DDR4 | RTX 3060 6Gb | 1Tb NVME | Win10 | 14 QHD 120Hz",
+    "price": 369999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/Si2Iw0pdp0vHxbgDuafV/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2755-placa-de-video-msi-nvidia-geforce-rtx-3060-gaming-x-12gb-gddr6.html",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video Zotac GeForce RTX 3070 8GB GDDR6 Twin Edge LHR",
-    "price": 160000,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_27140_Placa_de_Video_Zotac_GeForce_RTX_3070_8GB_GDDR6_Twin_Edge_LHR_e9fb0e11-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_Zotac_GeForce_RTX_3070_8GB_GDDR6_Twin_Edge_LHR_12249?criterio=rtx%203070&seccion=3&nro_max=50",
+    "name": "Placa de Video PNY GeForce RTX 3060 12GB GDDR6 REVEL EPIC-X Single Fan",
+    "price": 115000,
+    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25948_Placa_de_Video_PNY_GeForce_RTX_3060_12GB_GDDR6_REVEL_EPIC-X_Single_Fan_7f01aa04-med.jpg",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_PNY_GeForce_RTX_3060_12GB_GDDR6_REVEL_EPIC_X_Single_Fan_11964?criterio=rtx%203060&seccion=3&nro_max=50",
     "stockAvailable": false
   },
   {
-    "name": "EVGA NVIDIA RTX 3070 FTW3 ULTRA GAMING 8GB GDDR6 PCIe 4.0 Consultar stock",
-    "price": 189990,
-    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2801_ZAH6H0DXIE.jpg",
+    "name": "Placa de Video Zotac GeForce RTX 3060 12GB GDDR6 Twin Edge",
+    "price": 125000,
+    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_24747_Placa_de_Video_Zotac_GeForce_RTX_3060_12GB_GDDR6_Twin_Edge_2969b338-med.jpg",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_Zotac_GeForce_RTX_3060_12GB_GDDR6_Twin_Edge_11718?criterio=rtx%203060&seccion=3&nro_max=50",
+    "stockAvailable": false
+  },
+  {
+    "name": "MSI NVIDIA RTX 3060 GAMING X 12GB GDDR6 Consultar stock",
+    "price": 134995,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2845_RMPNP4R095.jpg",
     "productUrl": "",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video ZOTAC NVIDIA GeForce RTX 3070 Twin Edge 8GB GDDR6",
+    "name": "Placa de Video ASUS GeForce RTX 3060 12GB GDDR6 DUAL OC",
+    "price": 135000,
+    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25691_Placa_de_Video_ASUS_GeForce_RTX_3060_12GB_GDDR6_DUAL_OC_49d78817-med.jpg",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_ASUS_GeForce_RTX_3060_12GB_GDDR6_DUAL_OC_11914?criterio=rtx%203060&seccion=3&nro_max=50",
+    "stockAvailable": false
+  },
+  {
+    "name": "Placa de Video ASUS GeForce RTX 3060 12GB GDDR6 ROG STRIX GAMING OC",
+    "price": 139000,
+    "img": "https://compragamer.net/assets/img/sin_foto-med.jpg",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_ASUS_GeForce_RTX_3060_12GB_GDDR6_ROG_STRIX_GAMING_OC_12286?criterio=rtx%203060&seccion=3&nro_max=50",
+    "stockAvailable": false
+  },
+  {
+    "name": "Placa de Video Zotac GeForce RTX 3060 12GB GDDR6 Twin Edge OC",
+    "price": 140000,
+    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_24754_Placa_de_Video_Zotac_GeForce_RTX_3060_12GB_GDDR6_Twin_Edge_OC_53df4aa4-med.jpg",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_Zotac_GeForce_RTX_3060_12GB_GDDR6_Twin_Edge_OC_11719?criterio=rtx%203060&seccion=3&nro_max=50",
+    "stockAvailable": false
+  },
+  {
+    "name": "Placa de Video GAINWARD GeForce RTX 3060 12GB GDDR6 Pegasus Single Fan",
+    "price": 140000,
+    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_26707_Placa_de_Video_GAINWARD_GeForce_RTX_3060_12GB_GDDR6_Pegasus_Single_Fan_388db457-med.jpg",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_GAINWARD_GeForce_RTX_3060_12GB_GDDR6_Pegasus_Single_Fan_12137?criterio=rtx%203060&seccion=3&nro_max=50",
+    "stockAvailable": false
+  },
+  {
+    "name": "Placa de Video MSI NVIDIA GeForce RTX 3060 Ventus 2X 12Gb GDDR6",
+    "price": 144999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/VbECM6cpHovqbUVy8aFX/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3060#",
+    "stockAvailable": false
+  },
+  {
+    "name": "Placa de Video ZOTAC NVIDIA GeForce RTX 3060 Twin Edge OC 12Gb GDDR6",
+    "price": 146999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/knqZ2ZzPofXfmRuMowh6/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2297-placa-de-video-msi-nvidia-geforce-rtx-3060-ventus-3x-12gb-gddr6.html",
+    "stockAvailable": false
+  },
+  {
+    "name": "PALIT NVIDIA RTX 3060 DUAL OC 12GB DDR6 PCIe-4.0 Consultar stock",
+    "price": 168985,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2803_YPM4TOBS7I.jpg",
+    "productUrl": "",
+    "stockAvailable": false
+  },
+  {
+    "name": "Placa de Video ASUS NVIDIA GeForce RTX 3060 TUF GAMING 12Gb GDDR6",
     "price": 189999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/TR9nz3AhCYxhiheW8GuK/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2338-placa-de-video-evga-nvidia-geforce-rtx-3070-xc3-ultra-8gb-gddr6.html",
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/gqq4JzYpDTkewjarGgIa/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2297-placa-de-video-msi-nvidia-geforce-rtx-3060-ventus-3x-12gb-gddr6.html",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video MSI NVIDIA GeForce RTX 3070 Ventus 2X OC 8Gb GDDR6",
+    "name": "Placa de Video MSI NVIDIA GeForce RTX 3060 TI Ventus 2X OC 8Gb GDDR6",
+    "price": 189999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/SetrHfaqIkVc5KdVtcU6/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3060#",
+    "stockAvailable": false
+  },
+  {
+    "name": "Placa de Video ASUS NVIDIA GeForce RTX 3060 DUAL OC 12Gb GDDR6",
     "price": 194999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/JSt2Rgbhn4gVDJYdNwih/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3070#",
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/hxmDxHKq7WfJrnSzmbor/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/pc-xtreme-gamer/2797-pc-gamer-armada--amd-ryzen-5-5600x-y-16gb-y-rtx-3060-12gb.html",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video MSI NVIDIA GeForce RTX 3070 Ventus 3X 8Gb GDDR6",
+    "name": "Placa de Video Gigabyte NVIDIA GeForce RTX 3060 EAGLE OC 12Gb GDDR6",
     "price": 199999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/ISdB5zWDzKQ4EIrn0B5V/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/pc-xtreme-gamer/1110-pc-gamer-armada--intel-core-i7-10700f-y-16gb-y-rtx-3070-ti-8gb.html",
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/CzUNQ2uWgbJY0J9FAuxy/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/pc-xtreme-gamer/2797-pc-gamer-armada--amd-ryzen-5-5600x-y-16gb-y-rtx-3060-12gb.html",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video Palit NVIDIA GeForce RTX 3070 GAME ROCK 8GB GDDR6",
-    "price": 199999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/fQmQZuiIO36OBJrkd4o2/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/pc-xtreme-gamer/1110-pc-gamer-armada--intel-core-i7-10700f-y-16gb-y-rtx-3070-ti-8gb.html",
+    "name": "Placa de Video MSI NVIDIA GeForce RTX 3060 TI Gaming X Trio 8Gb GDDR6",
+    "price": 224999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/4RpPOisjAFf9Q4gP7Onm/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3060#",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video Gigabyte NVIDIA GeForce RTX 3070 VISION OC 8Gb GDDR6",
-    "price": 204999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/KHiTyRanReNCf4pEAGrt/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3070#",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video MSI NVIDIA GeForce RTX 3070 Gaming Z 8Gb GDDR6",
-    "price": 208999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/Jqs8fEIJ5tFFHEfu7q7i/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/pc-xtreme-gamer/1104-pc-gamer-armada--amd-ryzen-7-3700x-y-16gb-y-rtx-3070-ti-8gb.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "PALIT NVIDIA RTX 3070 GAMEROCK RGB 8GB GDDR6X Consultar stock",
-    "price": 209995,
-    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2405_D7V5TI91YR.jpg",
-    "productUrl": "",
-    "stockAvailable": false
-  },
-  {
-    "name": "PALIT NVIDIA RTX 3070 TI GAMINGPRO 8GB GDDR6X PCIe 4.0 (LHR) Consultar stock",
-    "price": 209995,
-    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2984_ORZ8W8NXHS.jpg",
-    "productUrl": "",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video Zotac GeForce RTX 3070 8GB GDDR6 Twin Edge",
-    "price": 210000,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_22248_Placa_de_Video_Zotac_GeForce_RTX_3070_8GB_GDDR6_Twin_Edge_e9fb0e11-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_Zotac_GeForce_RTX_3070_8GB_GDDR6_Twin_Edge_11024?criterio=rtx%203070&seccion=3&nro_max=50",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video PNY NVIDIA GeForce RTX 3070 Uprising Dual Fan 8Gb GDDR6",
-    "price": 214999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/QgvQzZeAZoTyRoE46j8G/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/pc-xtreme-gamer/1104-pc-gamer-armada--amd-ryzen-7-3700x-y-16gb-y-rtx-3070-ti-8gb.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video Zotac GeForce RTX 3070 8GB GDDR6 Twin Edge OC",
-    "price": 215000,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_22241_Placa_de_Video_Zotac_GeForce_RTX_3070_8GB_GDDR6_Twin_Edge_OC_cb8b31f6-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_Zotac_GeForce_RTX_3070_8GB_GDDR6_Twin_Edge_OC_11023?criterio=rtx%203070&seccion=3&nro_max=50",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video PNY GeForce RTX 3070 8GB GDDR6 XLR8 EPIC-X RGB Triple Fan OEM",
-    "price": 215000,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_27013_Placa_de_Video_PNY_GeForce_RTX_3070_8GB_GDDR6_XLR8_EPIC-X_RGB_Triple_Fan_OEM_02485a55-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_PNY_GeForce_RTX_3070_8GB_GDDR6_XLR8_EPIC_X_RGB_Triple_Fan_OEM_12216?criterio=rtx%203070&seccion=3&nro_max=50",
-    "stockAvailable": false
-  },
-  {
-    "name": "MSI NVIDIA RTX 3070 TI VENTUS 3X 8G OC GDDR6X PCIe 4.0 (LHR) Consultar stock",
-    "price": 217990,
-    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2988_8VLLMVZ0Q8.jpg",
-    "productUrl": "",
-    "stockAvailable": false
-  },
-  {
-    "name": "MSI NVIDIA RTX 3070 TI GAMING X TRIO 8GB GDDR6X PCIe 4.0 (LHR) Consultar stock",
-    "price": 219995,
-    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2985_O29MGQ22AK.jpg",
-    "productUrl": "",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video Gainward NVIDIA GeForce RTX 3070 Phoenix 8Gb GDDR6",
-    "price": 219999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/OVnroU8uOwATj9Rq9FDT/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3070#",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video PNY NVIDIA GeForce RTX 3070 XLR8 Triple Fan RGB 8Gb GDDR6",
-    "price": 219999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/hmBu64YkjSZYEHBIcdyu/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2758-placa-de-video-zotac-nvidia-geforce-rtx-3070-twin-edge-8gb-gddr6.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "MSI NVIDIA RTX 3070 GAMING X TRIO 8GB DDR6 PCI-e 4.0 Consultar stock",
-    "price": 229995,
-    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2487_GUJNZEH5GT.jpg",
-    "productUrl": "",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video EVGA GeForce RTX 3070 8GB GDDR6 FTW3 ULTRA GAMING",
+    "name": "Placa de Video ASUS GeForce RTX 3060 Ti 8GB GDDR6 ROG STRIX OC",
     "price": 238160,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25739_Placa_de_Video_EVGA_GeForce_RTX_3070_8GB_GDDR6_FTW3_ULTRA_GAMING_1998d251-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_EVGA_GeForce_RTX_3070_8GB_GDDR6_FTW3_ULTRA_GAMING_11917?criterio=rtx%203070&seccion=3&nro_max=50",
+    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_26990_Placa_de_Video_ASUS_GeForce_RTX_3060_Ti_8GB_GDDR6_ROG_STRIX_OC_995c1846-med.jpg",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_ASUS_GeForce_RTX_3060_Ti_8GB_GDDR6_ROG_STRIX_OC_12210?criterio=rtx%203060&seccion=3&nro_max=50",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video MSI GeForce RTX 3070 8GB GDDR6 GAMING X TRIO",
-    "price": 240000,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_24321_Placa_de_Video_MSI_GeForce_RTX_3070_8GB_GDDR6_GAMING_X_TRIO_12caa223-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_MSI_GeForce_RTX_3070_8GB_GDDR6_GAMING_X_TRIO_11610?criterio=rtx%203070&seccion=3&nro_max=50",
+    "name": "Placa de Video PNY NVIDIA GeForce RTX 3060 XLR8 Dual Fan RGB 12Gb GDDR6",
+    "price": 239999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/6M8W7MKXpB9vbVVgqasp/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/notebooks/2873-notebook-asus-rog-zephyrus-g14-amd-ryzen-9-5900hs--32gb-ddr4--rtx-3060-6gb--1tb-nvme--win10--14-qhd-120hz.html",
     "stockAvailable": false
   },
   {
-    "name": "MSI NVIDIA RTX 3070 VENTUS 3X OC 8GB GDDR6X PCI-e 4.0 Consultar stock",
-    "price": 269995,
-    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2488_HKGVMSAK7V.jpg",
-    "productUrl": "",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video Palit NVIDIA GeForce RTX 3070 GAMING PRO 8GB GDDR6",
-    "price": 389999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/XgZ3GjMMNoBaJrATDgwd/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2758-placa-de-video-zotac-nvidia-geforce-rtx-3070-twin-edge-8gb-gddr6.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video ASUS NVIDIA GeForce RTX 3070 ROG STRIX 8Gb GDDR6",
-    "price": 399999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/724RCheVeM2SjVgCZkFG/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2683-placa-de-video-msi-nvidia-geforce-rtx-3070-ventus-2x-oc-8gb-gddr6.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video ASUS NVIDIA GeForce RTX 3070 DUAL 8Gb GDDR6",
-    "price": 399999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/qVrffXm9PQfeEwSd5ft6/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2683-placa-de-video-msi-nvidia-geforce-rtx-3070-ventus-2x-oc-8gb-gddr6.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video ASUS NVIDIA GeForce RTX 3070 TUF GAMING 8Gb GDDR6",
-    "price": 399999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/PpfdvYVr4mhwE0RYUx9J/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2080-placa-de-video-msi-nvidia-geforce-rtx-3070-ventus-3x-8gb-gddr6.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video EVGA NVIDIA GeForce RTX 3070 FTW3 8Gb GDDR6",
-    "price": 399999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/C5ncBrQVgmnAF0EFTJAX/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2080-placa-de-video-msi-nvidia-geforce-rtx-3070-ventus-3x-8gb-gddr6.html",
+    "name": "Placa de Video ASUS NVIDIA GeForce RTX 3060 ROG STRIX 12Gb GDDR6",
+    "price": 249999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/NJcPEQUHSDB7NcUe54hp/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/notebooks/2873-notebook-asus-rog-zephyrus-g14-amd-ryzen-9-5900hs--32gb-ddr4--rtx-3060-6gb--1tb-nvme--win10--14-qhd-120hz.html",
     "stockAvailable": false
   }
 ]

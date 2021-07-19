@@ -25,7 +25,7 @@ const DEFAULT_VIEWPORT = {
   deviceScaleFactor: 1,
 };
 async function  productsSearcher(search,sites) { 
-	const browser = await puppeteer.launch({headless:false,defaultViewport: DEFAULT_VIEWPORT})
+	const browser = await puppeteer.launch({headless:true,defaultViewport: DEFAULT_VIEWPORT})
   const context = await browser.createIncognitoBrowserContext();
   let products = [];
   const promises = sites.map(async (v) =>{
@@ -65,7 +65,7 @@ async function  productsSearcher(search,sites) {
         return tmp.names.map((v,i)=>{
           return {
             name: v[keys.name],
-            price: tmp.prices[i][keys.price].substr(substrs.price),
+            price: tmp.prices[i][keys.price].substr(substrs.price.first,tmp.prices[i][keys.price].length-substrs.price.final-substrs.price.first),
             img: tmp.imgs[i][keys.img],
             productUrl: tmp.productUrls[i][keys.productUrl],
             stockAvailable: (tmp.stockAvailable[i][keys.stockAvailable.key]===keys.stockAvailable.value),
@@ -77,11 +77,11 @@ async function  productsSearcher(search,sites) {
         return v;
       })
       products = products.concat(result)
-      page.close()
+      await page.close()
       //console.log(2)
       }catch(err){
         console.log(err);
-        browser.close()
+        await browser.close()
         exit(1)
       } 
   },browser,search,products)

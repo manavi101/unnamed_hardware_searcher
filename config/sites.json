@@ -21,7 +21,10 @@
       }
     },
     "substr":{
-      "price":2
+      "price":{
+        "first":1,
+        "final":0
+      }
     },
     "priceFormat": "de"
   },
@@ -47,7 +50,10 @@
       }
     },
     "substr":{
-      "price":13
+      "price":{
+        "first":13,
+        "final":0
+      }
     },
     "priceFormat": "en"
   },
@@ -73,8 +79,40 @@
       }
     },
     "substr":{
-      "price":1
+      "price":{
+        "first":1,
+        "final":0
+      }
     },
     "priceFormat": "en"
+  },
+  {
+    "url":"https://www.maximus.com.ar/",
+    "searchRedirect":true,
+    "searchType":"input",
+    "searchBar":"#INPUT_BUSCADOR",
+    "searchBarButton":".btn-buscartop",
+    "name":".titprod",
+    "price":".price",
+    "img":".image a img",
+    "productUrl":".titprod",
+    "stockAvailable":".price",
+    "key":{
+      "name":"innerText",
+      "price":"innerText",
+      "img":"src",
+      "productUrl":"href",
+      "stockAvailable":{
+        "key":"hidden",
+        "value":false
+      }
+    },
+    "substr":{
+      "price":{
+        "first":1,
+        "final":2
+      }
+    },
+    "priceFormat": "de"
   }
 ]

@@ -1,5 +1,12 @@
 [
   {
+    "name": "MSI NVIDIA RTX 3070 VENTUS 3X OC 8GB GDDR6 PCI-e 4.0 LHR",
+    "price": 179995,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2987_MEAOIEBX33.jpg",
+    "productUrl": "https://www.logg.com.ar/PRODUCTOS/PLACA-DE-VIDEO/PLACA-DE-VIDEO-NVIDIA/-Mjk4Nw==/MSI-NVIDIA-RTX-3070-VENTUS-3X-OC-8GB-GDDR6-PCI-e-4.0-LHR",
+    "stockAvailable": true
+  },
+  {
     "name": "Placa de Video Palit NVIDIA GeForce RTX 3070 TI GAMING PRO 8GB GDDR6",
     "price": 199999,
     "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/HODQD7rYFK8qehxWZcCm/miniatura",
@@ -77,6 +84,13 @@
     "stockAvailable": false
   },
   {
+    "name": "EVGA NVIDIA RTX 3070 FTW3 ULTRA GAMING 8GB GDDR6 PCIe 4.0 Consultar stock",
+    "price": 189990,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2801_ZAH6H0DXIE.jpg",
+    "productUrl": "",
+    "stockAvailable": false
+  },
+  {
     "name": "Placa de Video ZOTAC NVIDIA GeForce RTX 3070 Twin Edge 8GB GDDR6",
     "price": 189999,
     "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/TR9nz3AhCYxhiheW8GuK/miniatura",
@@ -119,6 +133,20 @@
     "stockAvailable": false
   },
   {
+    "name": "PALIT NVIDIA RTX 3070 GAMEROCK RGB 8GB GDDR6X Consultar stock",
+    "price": 209995,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2405_D7V5TI91YR.jpg",
+    "productUrl": "",
+    "stockAvailable": false
+  },
+  {
+    "name": "PALIT NVIDIA RTX 3070 TI GAMINGPRO 8GB GDDR6X PCIe 4.0 (LHR) Consultar stock",
+    "price": 209995,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2984_ORZ8W8NXHS.jpg",
+    "productUrl": "",
+    "stockAvailable": false
+  },
+  {
     "name": "Placa de Video Zotac GeForce RTX 3070 8GB GDDR6 Twin Edge",
     "price": 210000,
     "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_22248_Placa_de_Video_Zotac_GeForce_RTX_3070_8GB_GDDR6_Twin_Edge_e9fb0e11-med.jpg",
@@ -147,6 +175,20 @@
     "stockAvailable": false
   },
   {
+    "name": "MSI NVIDIA RTX 3070 TI VENTUS 3X 8G OC GDDR6X PCIe 4.0 (LHR) Consultar stock",
+    "price": 217990,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2988_8VLLMVZ0Q8.jpg",
+    "productUrl": "",
+    "stockAvailable": false
+  },
+  {
+    "name": "MSI NVIDIA RTX 3070 TI GAMING X TRIO 8GB GDDR6X PCIe 4.0 (LHR) Consultar stock",
+    "price": 219995,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2985_O29MGQ22AK.jpg",
+    "productUrl": "",
+    "stockAvailable": false
+  },
+  {
     "name": "Placa de Video Gainward NVIDIA GeForce RTX 3070 Phoenix 8Gb GDDR6",
     "price": 219999,
     "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/OVnroU8uOwATj9Rq9FDT/miniatura",
@@ -161,6 +203,13 @@
     "stockAvailable": false
   },
   {
+    "name": "MSI NVIDIA RTX 3070 GAMING X TRIO 8GB DDR6 PCI-e 4.0 Consultar stock",
+    "price": 229995,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2487_GUJNZEH5GT.jpg",
+    "productUrl": "",
+    "stockAvailable": false
+  },
+  {
     "name": "Placa de Video EVGA GeForce RTX 3070 8GB GDDR6 FTW3 ULTRA GAMING",
     "price": 238160,
     "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25739_Placa_de_Video_EVGA_GeForce_RTX_3070_8GB_GDDR6_FTW3_ULTRA_GAMING_1998d251-med.jpg",
@@ -172,6 +221,13 @@
     "price": 240000,
     "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_24321_Placa_de_Video_MSI_GeForce_RTX_3070_8GB_GDDR6_GAMING_X_TRIO_12caa223-med.jpg",
     "productUrl": "https://compragamer.com/producto/Placa_de_Video_MSI_GeForce_RTX_3070_8GB_GDDR6_GAMING_X_TRIO_11610?criterio=rtx%203070&seccion=3&nro_max=50",
+    "stockAvailable": false
+  },
+  {
+    "name": "MSI NVIDIA RTX 3070 VENTUS 3X OC 8GB GDDR6X PCI-e 4.0 Consultar stock",
+    "price": 269995,
+    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2488_HKGVMSAK7V.jpg",
+    "productUrl": "",
     "stockAvailable": false
   },
   {

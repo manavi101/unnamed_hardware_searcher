@@ -48,10 +48,12 @@ async function  productsSearcher(search,sites) {
             searchBarButton.click()
           },site,search)
       }
-      await page.waitForNavigation({waitUntil:'networkidle2'})
-      //await page.waitForTimeout(2000)
-      //console.log(1)
-      products = products.concat((await page.evaluate ((site) => {
+      if(site.searchRedirect){
+        await page.waitForNavigation({waitUntil:'networkidle0'})
+      }else{
+        await page.waitForTimeout(2000)
+      }
+      const result = (await page.evaluate ((site) => {
         const tmp = {};
         const keys = site.key;
         const substrs = site.substr;
@@ -69,10 +71,12 @@ async function  productsSearcher(search,sites) {
             stockAvailable: (tmp.stockAvailable[i][keys.stockAvailable.key]===keys.stockAvailable.value),
           }
         })
-      },site)).map((v)=>{
+      },site))
+      result.map((v)=>{
         v.price = parseLocaleNumber(v.price,site.priceFormat)
         return v;
-      }))
+      })
+      products = products.concat(result)
       page.close()
       //console.log(2)
       }catch(err){

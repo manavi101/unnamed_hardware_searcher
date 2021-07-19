@@ -24,8 +24,8 @@ const DEFAULT_VIEWPORT = {
   height: 4000,
   deviceScaleFactor: 1,
 };
-(async () => { 
-	const browser = await puppeteer.launch({headless:true,defaultViewport: DEFAULT_VIEWPORT})
+async function  productsSearcher(search,sites) { 
+	const browser = await puppeteer.launch({headless:false,defaultViewport: DEFAULT_VIEWPORT})
   const context = await browser.createIncognitoBrowserContext();
   let products = [];
   const promises = sites.map(async (v) =>{
@@ -33,15 +33,22 @@ const DEFAULT_VIEWPORT = {
       const site = v;
       const page = await context.newPage()
       await page.goto(site.url,{waitUntil:'domcontentloaded'})
-      await page.waitForSelector(site.searchBar)
-      await page.waitForSelector(site.searchBarButton)
-      await page.evaluate ((site,search) => {
-        const searchBar = document.querySelector(site.searchBar)
-        const searchBarButton = document.querySelector(site.searchBarButton)
-        searchBar.value = search;
-        searchBarButton.click()
-      },site,search)
-      await page.waitForNavigation({waitUntil:'networkidle0'})
+      switch (site.searchType){
+        case "typing":
+          await page.waitForSelector(site.searchBar)
+          await page.waitForSelector(site.searchBarButton)
+          await page.type(site.searchBar, search, {delay: 20})
+          await page.click(site.searchBarButton, {delay: 20})
+        break;
+        case "input":
+          await page.evaluate ((site,search) => {
+            const searchBar = document.querySelector(site.searchBar)
+            const searchBarButton = document.querySelector(site.searchBarButton)
+            searchBar.value = search;
+            searchBarButton.click()
+          },site,search)
+      }
+      await page.waitForNavigation({waitUntil:'networkidle2'})
       //await page.waitForTimeout(2000)
       //console.log(1)
       products = products.concat((await page.evaluate ((site) => {
@@ -66,6 +73,7 @@ const DEFAULT_VIEWPORT = {
         v.price = parseLocaleNumber(v.price,site.priceFormat)
         return v;
       }))
+      page.close()
       //console.log(2)
       }catch(err){
         console.log(err);
@@ -78,4 +86,7 @@ const DEFAULT_VIEWPORT = {
     products.sort((a, b) =>   b.stockAvailable - a.stockAvailable || parseFloat(parseLocaleNumber(a.price,"en")) - parseFloat(parseLocaleNumber(b.price,"en")))
     fs.writeFileSync('result.json',JSON.stringify(products,null, 2))
   })
-})(search,sites)
+}
+productsSearcher(search,sites)
+
+module.exports = {productsSearcher};

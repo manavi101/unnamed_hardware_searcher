@@ -1,6 +1,7 @@
 [
   {
     "url":"https://compragamer.com/",
+    "searchType":"input",
     "searchBar":"#searchQuery",
     "searchBarButton":"#botonBusqueda",
     "name":".theme_nombreProducto a",
@@ -25,6 +26,7 @@
   },
   {
     "url":"https://gezatek.com.ar/",
+    "searchType":"input",
     "searchBar":".busqueda_principal input",
     "searchBarButton":".busqueda_principal button",
     "name":".product h2 a",

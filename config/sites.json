@@ -1,10 +1,12 @@
 [
   {
     "url":"https://compragamer.com/",
-    "searchRedirect":true,
-    "searchType":"input",
-    "searchBar":"#searchQuery",
-    "searchBarButton":"#botonBusqueda",
+    "search":{
+      "type":"input",
+      "searchBar":"#searchQuery",
+      "searchBarButton":"#botonBusqueda",
+      "redirect":true
+    },
     "name":".theme_nombreProducto a",
     "price":".price span",
     "img":".imagenPrincipal a cgw-item-image img",
@@ -30,10 +32,12 @@
   },
   {
     "url":"https://gezatek.com.ar/",
-    "searchRedirect":true,
-    "searchType":"input",
-    "searchBar":".busqueda_principal input",
-    "searchBarButton":".busqueda_principal button",
+    "search":{
+      "type":"input",
+      "searchBar":".busqueda_principal input",
+      "searchBarButton":".busqueda_principal button",
+      "redirect":true
+    },
     "name":".product h2 a",
     "price":".product .w-footer h3",
     "img":".product a .figure img",
@@ -59,10 +63,12 @@
   },
   {
     "url":"https://www.logg.com.ar/",
-    "searchRedirect":false,
-    "searchType":"typing",
-    "searchBar":".main-menu div input",
-    "searchBarButton":".main-menu div input",
+    "search":{
+      "type":"typing",
+      "searchBar":".main-menu div input",
+      "searchBarButton":".main-menu div input",
+      "redirect":false
+    },
     "name":".search-result-title",
     "price":".search-result-price",
     "img":".search-result img",
@@ -88,10 +94,12 @@
   },
   {
     "url":"https://www.maximus.com.ar/",
-    "searchRedirect":true,
-    "searchType":"input",
-    "searchBar":"#INPUT_BUSCADOR",
-    "searchBarButton":".btn-buscartop",
+    "search":{
+      "type":"input",
+      "searchBar":"#INPUT_BUSCADOR",
+      "searchBarButton":".btn-buscartop",
+      "redirect":true
+    },
     "name":".titprod",
     "price":".price",
     "img":".image a img",
@@ -117,32 +125,34 @@
   },
   {
     "url":"https://www.fullh4rd.com.ar/",
-    "searchRedirect":true,
-    "searchType":"input",
-    "searchBar":"#searchid",
-    "searchBarButton":"#searchbutton",
+    "search":{
+      "type":"input",
+      "searchBar":"#searchid",
+      "searchBarButton":"#searchbutton",
+      "redirect":true
+    },
     "name":".info h3",
     "price":".price",
     "img":".image img",
     "productUrl":".product-list a",
-    "stockAvailable":".tags span",
+    "stockAvailable":".btn-outline-md",
     "key":{
       "name":"innerText",
-      "price":"innerText",
+      "price":"childNodes>0>textContent",
       "img":"src",
       "productUrl":"href",
       "stockAvailable":{
         "key":"innerText",
-        "value":"En Stock."
+        "value":" Agregar"
       }
     },
     "substr":{
       "price":{
         "first":1,
-        "final":14
+        "final":0
       }
     },
     "popup":"#onesignal-slidedown-cancel-button",
-    "priceFormat": "de"
+    "priceFormat": "en"
   }
 ]

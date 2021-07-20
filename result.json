@@ -1,240 +1,212 @@
 [
   {
-    "name": "Placa de Video Pny Geforce Rtx 3060 Xlr8 Single Fan Rgb 12gb Gddr6",
-    "price": 133.037,
-    "img": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/VCG306012SFXPNY_600.jpg",
-    "productUrl": "https://www.maximus.com.ar/DETALLE/Placa-de-Video-PNY-GeForce-RTX-3060-XLR8-Single-Fan-RGB-12GB-GDDR6/ITEM_ID=7923/maximus.aspx?PN=VCG306012SFXPNY?GTIN=751492643953",
+    "name": "Placa de Video Zotac GeForce RTX 2060 6GB GDDR6 ZT-T20600H-10H",
+    "price": 91500,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_Zotac_GeForce_RTX_2060_6GB_GDDR6_ZT_T20600H_10H_8776?criterio=rtx%202060&seccion=3&nro_max=50",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video MSI GeForce RTX 3060 12GB GDDR6 GAMING X",
-    "price": 175.6,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25447_Placa_de_Video_MSI_GeForce_RTX_3060_12GB_GDDR6_GAMING_X_ba9d3b7b-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_MSI_GeForce_RTX_3060_12GB_GDDR6_GAMING_X_11850?criterio=rtx%203060&seccion=3&nro_max=50",
+    "name": "Placa de Video ASUS GeForce RTX 2060 6GB GDDR6 DUAL EVO",
+    "price": 92000,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_ASUS_GeForce_RTX_2060_6GB_GDDR6_DUAL_EVO_12031?criterio=rtx%202060&seccion=3&nro_max=50",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video MSI GeForce RTX 3060 12GB GDDR6 GAMING X TRIO",
-    "price": 185,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25452_Placa_de_Video_MSI_GeForce_RTX_3060_12GB_GDDR6_GAMING_X_TRIO_e5f6f3f3-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_MSI_GeForce_RTX_3060_12GB_GDDR6_GAMING_X_TRIO_11851?criterio=rtx%203060&seccion=3&nro_max=50",
+    "name": "Placa de Video Palit NVIDIA GeForce RTX 2060 DUAL 6GB GDDR6",
+    "price": 99999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/DDToQQtZydBMBGwIGfmr/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2796-placa-de-video-palit-nvidia-geforce-rtx-2060-dual-6gb-gddr6.html",
     "stockAvailable": true
   },
   {
-    "name": "Notebook Gamer Acer Helios 300 15.6\" Intel I7 10750h 16gb Ram 512gb Ssd Rtx 3060 W10h Ips 144hz",
-    "price": 269.9,
-    "img": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/PH-315-53-71HN_600.jpg",
-    "productUrl": "https://www.maximus.com.ar/DETALLE/Notebook-Gamer-Acer-Helios-300-156-Intel-I7-10750H-16GB-Ram-512GB-SSD-RTX-3060-W10H-IPS-144Hz/ITEM_ID=8627/maximus.aspx?PN=PH-315-53-71HN?GTIN=0195133098670",
+    "name": "Placa de Video ASUS NVIDIA GeForce RTX 2060 DUAL EVO 6GB GDDR6",
+    "price": 104999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/8ENe0DSrOQFwWjM9NC4W/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2796-placa-de-video-palit-nvidia-geforce-rtx-2060-dual-6gb-gddr6.html",
     "stockAvailable": true
   },
   {
-    "name": "Notebook Gamer Razer Blade 15 15.6\" Intel I7 10750h 16gb Ram 512gb Ssd Rtx 3060 W10h 144hz",
-    "price": 340.874,
-    "img": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/RZ09-0369AE22-R3U1_600.jpg",
-    "productUrl": "https://www.maximus.com.ar/DETALLE/Notebook-Gamer-Razer-Blade-15-156-Intel-I7-10750H-16GB-Ram-512GB-SSD-RTX-3060-W10H-144Hz/ITEM_ID=8626/maximus.aspx?PN=RZ09-0369AE22-R3U1?GTIN=0814855024063",
+    "name": "VIDEO GEFORCE RTX 2060 6GB ASUS STRIX",
+    "price": 117074,
+    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-2060-6gb-asus-strix-0.jpg",
+    "productUrl": "https://www.fullh4rd.com.ar/prod/11800/video-geforce-rtx-2060-6gb-asus-strix",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video Palit NVIDIA GeForce RTX 3060 DUAL OC 12GB GDDR6",
-    "price": 129999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/JyqJgUhsZZ7qX2z5OUW0/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2563-placa-de-video-palit-nvidia-geforce-rtx-3060-dual-oc-12gb-gddr6.html",
+    "name": "VIDEO GEFORCE RTX 2060 6GB ASUS TURBO",
+    "price": 119869,
+    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-2060-6gb-asus-turbo-0.jpg",
+    "productUrl": "https://www.fullh4rd.com.ar/prod/12494/video-geforce-rtx-2060-6gb-asus-turbo",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video MSI NVIDIA GeForce RTX 3060 Gaming X 12Gb GDDR6",
-    "price": 134999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/0zGBGtbteBuPcRmFDifb/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2563-placa-de-video-palit-nvidia-geforce-rtx-3060-dual-oc-12gb-gddr6.html",
+    "name": "VIDEO GEFORCE RTX 2060 6GB MSI VENTUS OC",
+    "price": 130193,
+    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-2060-6gb-msi-ventus-oc-0.jpg",
+    "productUrl": "https://www.fullh4rd.com.ar/prod/12421/video-geforce-rtx-2060-6gb-msi-ventus-oc",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video MSI NVIDIA GeForce RTX 3060 Ventus 3X 12Gb GDDR6",
-    "price": 134999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/sVnu45uXQempDSGA4wKj/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3060#",
+    "name": "Placa de Video ASUS GeForce RTX 2060 TURBO 6GB GDDR6",
+    "price": 135500,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_ASUS_GeForce_RTX_2060_TURBO_6GB_GDDR6_12032?criterio=rtx%202060&seccion=3&nro_max=50",
     "stockAvailable": true
   },
   {
-    "name": "MSI NVIDIA RTX 3060 TI VENTUS 2X OCV1 8GB GDDR6 PCIe 4.0 LHR",
-    "price": 174995,
-    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2757_5EB3PO9NYO.jpg",
-    "productUrl": "https://www.logg.com.ar/PRODUCTOS/PLACA-DE-VIDEO/PLACA-DE-VIDEO-NVIDIA/-Mjc1Nw==/MSI-NVIDIA-RTX-3060-TI-VENTUS-2X-OCV1-8GB-GDDR6-PCIe-4.0-LHR",
+    "name": "VIDEO GEFORCE RTX 2060 6GB ASUS DUAL OC",
+    "price": 136103,
+    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-2060-6gb-asus-dual-oc-0.jpg",
+    "productUrl": "https://www.fullh4rd.com.ar/prod/11801/video-geforce-rtx-2060-6gb-asus-dual-oc",
     "stockAvailable": true
   },
   {
-    "name": "PC Gamer Armada | AMD Ryzen 5 5600X + 16GB + RTX 3060 12Gb",
-    "price": 210999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/xcsxDyyCXQCzYrhAb7jz/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2755-placa-de-video-msi-nvidia-geforce-rtx-3060-gaming-x-12gb-gddr6.html",
+    "name": "PC GAMER INTEL I7 10700+B460+16GB+480GB SSD+RTX 2060",
+    "price": 211205,
+    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/pc-gamer-intel-i7-10700b46016gb480gb-ssdrtx-2060-0.jpg",
+    "productUrl": "https://www.fullh4rd.com.ar/prod/16751/pc-gamer-intel-i7-10700-b460-16gb-480gb-ssd-rtx-2060",
     "stockAvailable": true
   },
   {
-    "name": "Placa de Video PNY GeForce RTX 3060 12GB GDDR6 REVEL EPIC-X Single Fan",
-    "price": 115,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25948_Placa_de_Video_PNY_GeForce_RTX_3060_12GB_GDDR6_REVEL_EPIC-X_Single_Fan_7f01aa04-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_PNY_GeForce_RTX_3060_12GB_GDDR6_REVEL_EPIC_X_Single_Fan_11964?criterio=rtx%203060&seccion=3&nro_max=50",
+    "name": "Notebook Acer Nitro AN515 15.6\" Core i7-9750H 16GB HD 256GB SSD RTX 2060 Win 10",
+    "price": 219530,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Notebook_Acer_Nitro_AN515_15_6_Core_i7_9750H_16GB_HD_256GB_SSD_RTX_2060_Win_10_11639?criterio=rtx%202060&seccion=3&nro_max=50",
+    "stockAvailable": true
+  },
+  {
+    "name": "PC GAMER AMD RYZEN 7 3700X+A520+16GB+240GB SSD+1TB+RTX 2060",
+    "price": 220308,
+    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/pc-gamer-amd-ryzen-7-3700xa52016gb240gb-ssd1tbrtx-2060-0.jpg",
+    "productUrl": "https://www.fullh4rd.com.ar/prod/16312/pc-gamer-amd-ryzen-7-3700x-a520-16gb-240gb-ssd-1tb-rtx-2060",
+    "stockAvailable": true
+  },
+  {
+    "name": "PC GAMER INTEL I5 10600K+B460+16GB+480GB SSD+RTX 2060",
+    "price": 220328,
+    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/pc-gamer-intel-i5-10600kb46016gb480gb-ssdrtx-2060-0.jpg",
+    "productUrl": "https://www.fullh4rd.com.ar/prod/16742/pc-gamer-intel-i5-10600k-b460-16gb-480gb-ssd-rtx-2060",
+    "stockAvailable": true
+  },
+  {
+    "name": "PC GAMER AMD RYZEN 7 3700X+B450+32GB+1TB+240GB SSD+RTX 2060",
+    "price": 234730,
+    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/pc-gamer-amd-ryzen-7-3700xb45032gb1tb240gb-ssdrtx-2060-0.jpg",
+    "productUrl": "https://www.fullh4rd.com.ar/prod/16316/pc-gamer-amd-ryzen-7-3700x-b450-32gb-1tb-240gb-ssd-rtx-2060",
+    "stockAvailable": true
+  },
+  {
+    "name": "PC GAMER INTEL I7 10700K+Z490+32GB+480GB SSD+1TB+RTX 2060",
+    "price": 265456,
+    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/pc-gamer-intel-i7-10700kz49032gb480gb-ssd1tbrtx-2060-0.jpg",
+    "productUrl": "https://www.fullh4rd.com.ar/prod/17144/pc-gamer-intel-i7-10700k-z490-32gb-480gb-ssd-1tb-rtx-2060",
+    "stockAvailable": true
+  },
+  {
+    "name": "Notebook ASUS ROG ZEPHYRUS 14\" WQHD RYZEN 9 4900HS 16GB 1TB NVMe RTX 2060",
+    "price": 295000,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Notebook_ASUS_ROG_ZEPHYRUS_14_WQHD_RYZEN_9_4900HS_16GB_1TB_NVMe_RTX_2060_12081?criterio=rtx%202060&seccion=3&nro_max=50",
+    "stockAvailable": true
+  },
+  {
+    "name": "Placa de Video PNY GeForce RTX 2060 6GB GDDR6 OEM",
+    "price": 89000,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_PNY_GeForce_RTX_2060_6GB_GDDR6_OEM_12061?criterio=rtx%202060&seccion=3&nro_max=50",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video Zotac GeForce RTX 3060 12GB GDDR6 Twin Edge",
-    "price": 125,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_24747_Placa_de_Video_Zotac_GeForce_RTX_3060_12GB_GDDR6_Twin_Edge_2969b338-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_Zotac_GeForce_RTX_3060_12GB_GDDR6_Twin_Edge_11718?criterio=rtx%203060&seccion=3&nro_max=50",
+    "name": "Placa de Video Zotac GeForce RTX 2060 6GB GDDR6 ZT-T20600Q-10M",
+    "price": 92500,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_Zotac_GeForce_RTX_2060_6GB_GDDR6_ZT_T20600Q_10M_12017?criterio=rtx%202060&seccion=3&nro_max=50",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video ASUS GeForce RTX 3060 12GB GDDR6 DUAL OC",
-    "price": 135,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_25691_Placa_de_Video_ASUS_GeForce_RTX_3060_12GB_GDDR6_DUAL_OC_49d78817-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_ASUS_GeForce_RTX_3060_12GB_GDDR6_DUAL_OC_11914?criterio=rtx%203060&seccion=3&nro_max=50",
+    "name": "VIDEO GEFORCE RTX 2060 6GB ASUS DUAL EVO 06G",
+    "price": 101391,
+    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-2060-6gb-asus-dual-evo-06g-0.jpg",
+    "productUrl": "https://www.fullh4rd.com.ar/prod/19853/video-geforce-rtx-2060-6gb-asus-dual-evo-06g",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video ASUS GeForce RTX 3060 12GB GDDR6 ROG STRIX GAMING OC",
-    "price": 139,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_27300_Placa_de_Video_ASUS_GeForce_RTX_3060_12GB_GDDR6_ROG_STRIX__GAMING_OC_1061af8a-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_ASUS_GeForce_RTX_3060_12GB_GDDR6_ROG_STRIX_GAMING_OC_12286?criterio=rtx%203060&seccion=3&nro_max=50",
+    "name": "Placa de Video Pny Nvidia Geforce Rtx 2060 Blower 6gb Gddr6 Bulk",
+    "price": 103440,
+    "img": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/GMR2061N3J6ET1KTM8AJA_600.jpg",
+    "productUrl": "https://www.maximus.com.ar/DETALLE/Placa-de-Video-PNY-Nvidia-Geforce-RTX-2060-BLOWER-6GB-GDDR6-BULK/ITEM_ID=8449/maximus.aspx?PN=GMR2061N3J6ET1KTM8AJA?GTIN=751492625218",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video Zotac GeForce RTX 3060 12GB GDDR6 Twin Edge OC",
-    "price": 140,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_24754_Placa_de_Video_Zotac_GeForce_RTX_3060_12GB_GDDR6_Twin_Edge_OC_53df4aa4-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_Zotac_GeForce_RTX_3060_12GB_GDDR6_Twin_Edge_OC_11719?criterio=rtx%203060&seccion=3&nro_max=50",
+    "name": "Placa de Video MSI GeForce RTX 2060 6GB GDDR6 VENTUS GP OC",
+    "price": 105000,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_MSI_GeForce_RTX_2060_6GB_GDDR6_VENTUS_GP_OC_12202?criterio=rtx%202060&seccion=3&nro_max=50",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video GAINWARD GeForce RTX 3060 12GB GDDR6 Pegasus Single Fan",
-    "price": 140,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_26707_Placa_de_Video_GAINWARD_GeForce_RTX_3060_12GB_GDDR6_Pegasus_Single_Fan_388db457-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_GAINWARD_GeForce_RTX_3060_12GB_GDDR6_Pegasus_Single_Fan_12137?criterio=rtx%203060&seccion=3&nro_max=50",
+    "name": "Placa de Video ASUS GeForce RTX 2060 6GB GDDR6 DUAL EVO OC",
+    "price": 106390,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_ASUS_GeForce_RTX_2060_6GB_GDDR6_DUAL_EVO_OC_11879?criterio=rtx%202060&seccion=3&nro_max=50",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video ASUS GeForce RTX 3060 Ti 8GB GDDR6 ROG STRIX OC",
-    "price": 238.16,
-    "img": "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_26990_Placa_de_Video_ASUS_GeForce_RTX_3060_Ti_8GB_GDDR6_ROG_STRIX_OC_995c1846-med.jpg",
-    "productUrl": "https://compragamer.com/producto/Placa_de_Video_ASUS_GeForce_RTX_3060_Ti_8GB_GDDR6_ROG_STRIX_OC_12210?criterio=rtx%203060&seccion=3&nro_max=50",
+    "name": "Placa de Video Asus Nvidia Geforce Rtx 2060 Dual Evo 6gb",
+    "price": 110989,
+    "img": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/90YV0CH4-M0AA00_600.jpg",
+    "productUrl": "https://www.maximus.com.ar/DETALLE/Placa-de-Video-Asus-Nvidia-Geforce-RTX-2060-DUAL-EVO-6GB/ITEM_ID=8469/maximus.aspx?PN=90YV0CH4-M0AA00?GTIN=192876273937",
     "stockAvailable": false
   },
   {
-    "name": "MSI NVIDIA RTX 3060 GAMING X 12GB GDDR6 Consultar stock",
-    "price": 134995,
-    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2845_RMPNP4R095.jpg",
-    "productUrl": "",
+    "name": "Placa de Video GeForce EVGA RTX 2060 6GB GDDR6 XC GAMING",
+    "price": 113500,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_GeForce_EVGA_RTX_2060_6GB_GDDR6_XC_GAMING_12103?criterio=rtx%202060&seccion=3&nro_max=50",
     "stockAvailable": false
   },
   {
-    "name": "VIDEO GEFORCE RTX 3060 12GB XLR8 SINGLE FAN RGB",
-    "price": 142713,
-    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-3060-12gb-xlr8-single-fan-rgb-0.jpg",
-    "productUrl": "https://www.fullh4rd.com.ar/prod/18389/video-geforce-rtx-3060-12gb-xlr8-single-fan-rgb",
+    "name": "Placa de Video Asus Nvidia Geforce Rtx 2060 Strix Evo v2 6gb Gddr6",
+    "price": 118919,
+    "img": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/90YV0GS1-M0AA00_600.jpg",
+    "productUrl": "https://www.maximus.com.ar/DETALLE/Placa-de-Video-Asus-Nvidia-Geforce-RTX-2060-Strix-EVO-V2-6GB-GDDR6/ITEM_ID=5193/maximus.aspx?PN=90YV0GS1-M0AA00?GTIN=0192876372715",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video MSI NVIDIA GeForce RTX 3060 Ventus 2X 12Gb GDDR6",
-    "price": 144999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/VbECM6cpHovqbUVy8aFX/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2755-placa-de-video-msi-nvidia-geforce-rtx-3060-gaming-x-12gb-gddr6.html",
+    "name": "Placa de Video Palit NVIDIA GeForce RTX 2060 SUPER DUAL 8GB GDDR6",
+    "price": 119999,
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/JQ3tooVCtny0nQMBJIJ8/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+2060#",
     "stockAvailable": false
   },
   {
-    "name": "Placa de Video ZOTAC NVIDIA GeForce RTX 3060 Twin Edge OC 12Gb GDDR6",
+    "name": "Placa de Video ASUS GeForce RTX 2060 6GB GDDR6 ROG STRIX EVO V2 GAMING",
+    "price": 125880,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_ASUS_GeForce_RTX_2060_6GB_GDDR6_ROG_STRIX_EVO_V2_GAMING_12265?criterio=rtx%202060&seccion=3&nro_max=50",
+    "stockAvailable": false
+  },
+  {
+    "name": "Placa de Video Palit GeForce RTX 2060 SUPER 8GB GDDR6 DUAL",
+    "price": 130000,
+    "img": "https://compragamer.com/PatchRouterSection/assets/img/iconoCG.gif",
+    "productUrl": "https://compragamer.com/producto/Placa_de_Video_Palit_GeForce_RTX_2060_SUPER_8GB_GDDR6_DUAL_12204?criterio=rtx%202060&seccion=3&nro_max=50",
+    "stockAvailable": false
+  },
+  {
+    "name": "Placa de Video Palit NVIDIA GeForce RTX 2060 DUAL OC 6GB GDDR6",
     "price": 146999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/knqZ2ZzPofXfmRuMowh6/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3060#",
+    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/R7MfqdrZcQU8mqIviuxn/miniatura",
+    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/1680-placa-de-video-asus-nvidia-geforce-rtx-2060-dual-evo-6gb-gddr6.html",
     "stockAvailable": false
   },
   {
-    "name": "VIDEO GEFORCE RTX 3060 12GB MSI GAMING X",
-    "price": 150223,
-    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-3060-12gb-msi-gaming-x-0.jpg",
-    "productUrl": "https://www.fullh4rd.com.ar/prod/19380/video-geforce-rtx-3060-12gb-msi-gaming-x",
-    "stockAvailable": false
-  },
-  {
-    "name": "PALIT NVIDIA RTX 3060 DUAL OC 12GB DDR6 PCIe-4.0 Consultar stock",
-    "price": 168985,
-    "img": "https://www.logg.com.ar/static/photos/PLACA_DE_VIDEO_NVIDIA/2803_YPM4TOBS7I.jpg",
-    "productUrl": "",
-    "stockAvailable": false
-  },
-  {
-    "name": "VIDEO GEFORCE RTX 3060 MSI VENTUS 3X",
-    "price": 172190,
-    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-3060-msi-ventus-3x-0.jpg",
-    "productUrl": "https://www.fullh4rd.com.ar/prod/19635/video-geforce-rtx-3060-msi-ventus-3x",
-    "stockAvailable": false
-  },
-  {
-    "name": "VIDEO GEFORCE RTX 3060 TI 8GB VENTUS X2 LHR",
-    "price": 173319,
-    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-3060-ti-8gb-ventus-x2-lhr-0.jpg",
-    "productUrl": "https://www.fullh4rd.com.ar/prod/19749/video-geforce-rtx-3060-ti-8gb-ventus-x2-lhr",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video ASUS NVIDIA GeForce RTX 3060 TUF GAMING 12Gb GDDR6",
-    "price": 189999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/gqq4JzYpDTkewjarGgIa/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2297-placa-de-video-msi-nvidia-geforce-rtx-3060-ventus-3x-12gb-gddr6.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video MSI NVIDIA GeForce RTX 3060 TI Ventus 2X OC 8Gb GDDR6",
-    "price": 189999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/SetrHfaqIkVc5KdVtcU6/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2297-placa-de-video-msi-nvidia-geforce-rtx-3060-ventus-3x-12gb-gddr6.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video ASUS NVIDIA GeForce RTX 3060 DUAL OC 12Gb GDDR6",
-    "price": 194999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/hxmDxHKq7WfJrnSzmbor/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3060#",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video Gigabyte NVIDIA GeForce RTX 3060 EAGLE OC 12Gb GDDR6",
-    "price": 199999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/CzUNQ2uWgbJY0J9FAuxy/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/pc-xtreme-gamer/2797-pc-gamer-armada--amd-ryzen-5-5600x-y-16gb-y-rtx-3060-12gb.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video MSI NVIDIA GeForce RTX 3060 TI Gaming X Trio 8Gb GDDR6",
-    "price": 224999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/4RpPOisjAFf9Q4gP7Onm/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/pc-xtreme-gamer/2797-pc-gamer-armada--amd-ryzen-5-5600x-y-16gb-y-rtx-3060-12gb.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video PNY NVIDIA GeForce RTX 3060 XLR8 Dual Fan RGB 12Gb GDDR6",
-    "price": 239999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/6M8W7MKXpB9vbVVgqasp/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/?busqueda=rtx+3060#",
-    "stockAvailable": false
-  },
-  {
-    "name": "Placa de Video ASUS NVIDIA GeForce RTX 3060 ROG STRIX 12Gb GDDR6",
-    "price": 249999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/NJcPEQUHSDB7NcUe54hp/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2784-placa-de-video-msi-nvidia-geforce-rtx-3060-ventus-2x-12gb-gddr6.html",
-    "stockAvailable": false
-  },
-  {
-    "name": "NOTEBOOK ASUS 15.6\" RYZEN 7 5800H 512GB SSD 16GB 144HZ RTX3060 WIN",
-    "price": 255381,
-    "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/notebook-asus-156-ryzen-7-5800h-512gb-ssd-16gb-144hz-rtx3060-win-0.jpg",
-    "productUrl": "https://www.fullh4rd.com.ar/prod/19966/notebook-asus-156-ryzen-7-5800h-512gb-ssd-16gb-144hz-rtx3060-win",
-    "stockAvailable": false
-  },
-  {
-    "name": "Notebook ASUS ROG Zephyrus G14 AMD Ryzen 9 5900HS | 32GB DDR4 | RTX 3060 6Gb | 1Tb NVME | Win10 | 14 QHD 120Hz",
-    "price": 369999,
-    "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/Si2Iw0pdp0vHxbgDuafV/miniatura",
-    "productUrl": "https://www.gezatek.com.ar/tienda/vga-nvidia/2784-placa-de-video-msi-nvidia-geforce-rtx-3060-ventus-2x-12gb-gddr6.html",
+    "name": "Pc Armada Intel Core I7 10700f - 16gb - 240gb Ssd - 1tb Hdd - Rtx 2060",
+    "price": 162344,
+    "img": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/PC-Armada-Prod10_600.jpg",
+    "productUrl": "https://www.maximus.com.ar/DETALLE/PC-Armada-Intel-Core-I7-10700F---16GB---240GB-SSD---1TB-HDD---RTX-2060/ITEM_ID=8485/maximus.aspx?PN=PC-Armada-Prod10",
     "stockAvailable": false
   }
 ]

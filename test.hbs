@@ -1,0 +1,14 @@
+<h1 style="text-align: center;">{{search}}</h1>
+{{#each products}}
+    <div style="padding-bottom: 10px;">
+      <h4><a href="{{this.productUrl}}">{{this.name}}</a></h4>
+      <img style="width:75px;height:75px;" src="{{this.img}}">
+      <p>${{this.price}}</p>
+      {{#if this.stockAvailable}}
+      <p>Hay stock</p>
+      {{else}}
+      <p>No hay stock</p>
+      {{/if}}
+      
+    </div>
+{{/each}}

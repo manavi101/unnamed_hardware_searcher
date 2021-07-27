@@ -6,7 +6,17 @@ const search = async (req, res, next) => {
   const { searchText } = req.body;
     try {
       productsSearcher(searchText, sites).then(products => {
-        res.status(200).json(products)
+        let result = {}
+        result.data = products
+        result.recordsTotal = products.length
+        result.recordsWithStock = 0
+        products.forEach((e,i) => {
+          if(i === 0)
+            result.minPrice = e.price
+          if(e.stockAvailable)
+            ++result.recordsWithStock
+        })
+        res.status(200).json(result)
       })
     } catch (error) {
       return next(

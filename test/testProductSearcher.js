@@ -1,7 +1,7 @@
 const fs = require('fs')
-const { productsSearcher } = require('./productsSearcher.js')
+const { productsSearcher } = require('../lib/productsSearcher.js')
 
-let rawdata = fs.readFileSync('config/sites.json')
+let rawdata = fs.readFileSync('sites.json')
 let sites = JSON.parse(rawdata)
 
 const search = process.argv[2]

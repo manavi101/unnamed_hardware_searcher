@@ -1,10 +1,10 @@
 const express = require('express');
 const scrapeControllers = require('../scrape.js')
-const { search, getSitesConfig } = scrapeControllers;
+const { search, getSites } = scrapeControllers;
 
 const router = express.Router();
 
-router.post('/', search)
-router.get('/sites', getSitesConfig)
+router.get('/', search)
+router.get('/sites', getSites)
 
 module.exports = router;

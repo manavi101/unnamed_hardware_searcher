@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
-require('../models/sites.js');
-require('../models/search.js');
-const Sites = mongoose.model('sites');
-const Search = mongoose.model('search');
+const Site = require('../models/site.js');
+const Search = require('../models/search.js');
 const { productsSearcher } = require('../lib/productsSearcher.js')
 require('dotenv').config()
 
@@ -14,7 +12,7 @@ if (!search){
 (async()=>{
   try{
     await mongoose.connect(process.env.DB_URI, { useNewUrlParser: true, useUnifiedTopology: true,useCreateIndex:true})
-    const sites = await Sites.find()
+    const sites = await Site.find()
     let result = await Search.findOne({value:search})
     console.log(result)
     if(!result){

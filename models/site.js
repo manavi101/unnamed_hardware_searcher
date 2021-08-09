@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const {Schema} = mongoose;
 
-const sitesSchema = new Schema({
+const siteSchema = new Schema({
     url:String,
     name:String,
     search:{
@@ -35,4 +35,4 @@ const sitesSchema = new Schema({
     priceFormat:String
 })
 
-mongoose.model('sites', sitesSchema);
+module.exports = mongoose.model('Site', siteSchema);

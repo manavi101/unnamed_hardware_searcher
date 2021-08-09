@@ -1,0 +1,158 @@
+[
+  {
+    "url":"https://compragamer.com/",
+    "search":{
+      "searchType":"input",
+      "searchBar":"#searchQuery",
+      "searchBarButton":"#botonBusqueda",
+      "redirect":true
+    },
+    "name":".theme_nombreProducto a",
+    "price":".price span",
+    "img":".imagenPrincipal a cgw-item-image img",
+    "productUrl":".imagenPrincipal a",
+    "stockAvailable":".mat-raised-button",
+    "key":{
+      "name":"innerText",
+      "price":"innerText",
+      "img":"src",
+      "productUrl":"href",
+      "stockAvailable":{
+        "key":"disabled",
+        "value":true
+      }
+    },
+    "substr":{
+      "price":{
+        "first":1,
+        "final":0
+      }
+    },
+    "priceFormat": "de"
+  },
+  {
+    "url":"https://gezatek.com.ar/",
+    "search":{
+      "searchType":"input",
+      "searchBar":".busqueda_principal input",
+      "searchBarButton":".busqueda_principal button",
+      "redirect":true
+    },
+    "name":".product h2 a",
+    "price":".product .w-footer h3",
+    "img":".product a .figure img",
+    "productUrl":".product a",
+    "stockAvailable":".product .w-footer .stock_generico",
+    "key":{
+      "name":"innerText",
+      "price":"innerText",
+      "img":"src",
+      "productUrl":"href",
+      "stockAvailable":{
+        "key":"innerText",
+        "value":"Hay Stock"
+      }
+    },
+    "substr":{
+      "price":{
+        "first":13,
+        "final":0
+      }
+    },
+    "priceFormat": "en"
+  },
+  {
+    "url":"https://www.logg.com.ar/",
+    "search":{
+      "searchType":"typing",
+      "searchBar":".main-menu div input",
+      "searchBarButton":".main-menu div input",
+      "redirect":false
+    },
+    "name":".search-result-title",
+    "price":".search-result-price",
+    "img":".search-result img",
+    "productUrl":".search-result a",
+    "stockAvailable":".search-result-title",
+    "key":{
+      "name":"textContent",
+      "price":"innerText",
+      "img":"src",
+      "productUrl":"href",
+      "stockAvailable":{
+        "key":"childElementCount",
+        "value":0
+      }
+    },
+    "substr":{
+      "price":{
+        "first":1,
+        "final":0
+      }
+    },
+    "priceFormat": "en"
+  },
+  {
+    "url":"https://www.maximus.com.ar/",
+    "search":{
+      "searchType":"input",
+      "searchBar":"#INPUT_BUSCADOR",
+      "searchBarButton":".btn-buscartop",
+      "redirect":true
+    },
+    "name":".titprod",
+    "price":".price",
+    "img":".image a img",
+    "productUrl":".titprod",
+    "stockAvailable":".price",
+    "key":{
+      "name":"innerText",
+      "price":"innerText",
+      "img":"src",
+      "productUrl":"href",
+      "stockAvailable":{
+        "key":"hidden",
+        "value":false
+      }
+    },
+    "substr":{
+      "price":{
+        "first":1,
+        "final":2
+      }
+    },
+    "priceFormat": "de"
+  },
+  {
+    "url":"https://www.fullh4rd.com.ar/",
+    "search":{
+      "searchType":"input",
+      "searchBar":"#searchid",
+      "searchBarButton":"#searchbutton",
+      "redirect":true
+    },
+    "name":".info h3",
+    "price":".price",
+    "img":".image img",
+    "productUrl":".product-list a",
+    "stockAvailable":".btn-outline-md",
+    "key":{
+      "name":"innerText",
+      "price":"childNodes>0>textContent",
+      "img":"src",
+      "productUrl":"href",
+      "stockAvailable":{
+        "key":"innerText",
+        "value":" Agregar"
+      }
+    },
+    "substr":{
+      "price":{
+        "first":1,
+        "final":0
+      }
+    },
+    "popup":"#onesignal-slidedown-cancel-button",
+    "priceFormat": "en"
+  }
+]

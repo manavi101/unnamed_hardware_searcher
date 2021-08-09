@@ -13,4 +13,4 @@ const searchSchema = new Schema({
     }]
 })
 searchSchema.index({ "createdAt": 1 }, { expireAfterSeconds: 86400 })
-mongoose.model('search', searchSchema);
+module.exports = mongoose.model('Search', searchSchema);

@@ -1,6 +1,8 @@
 const express = require('express');
-const scrapeControllers = require('../scrape.js')
-const { search, getSites } = scrapeControllers;
+const {
+  search, 
+  getSites
+} = require('../controllers/searchController')
 
 const router = express.Router();
 

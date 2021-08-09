@@ -21,9 +21,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-const scrapeRouter = require('./routes/scrape');
+const searchRouter = require('./routes/search');
+const userRouter = require('./routes/users')
 
-app.use('/search', scrapeRouter);
+app.use('/search', searchRouter);
+app.use('/user', userRouter)
 
 
 app.use((req, res, next) => {

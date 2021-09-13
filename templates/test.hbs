@@ -1,14 +1,65 @@
 <h1 style="text-align: center;">{{search}}</h1>
-{{#each products}}
-    <div style="padding-bottom: 10px;">
-      <h4><a href="{{this.productUrl}}">{{this.name}}</a></h4>
-      <img style="width:75px;height:75px;" src="{{this.img}}">
-      <p>${{this.price}}</p>
-      {{#if this.stockAvailable}}
-      <p>Hay stock</p>
-      {{else}}
-      <p>No hay stock</p>
-      {{/if}}
-      
-    </div>
-{{/each}}
+{{#if (isNull products)}}
+    {{#if products.stock.cheaper}}
+      <h3>Productos mas baratos</h3>
+      {{#each products.stock.cheaper}}
+        <div style="padding-bottom: 10px;">
+          <h4><a href="{{this.productUrl}}">{{this.name}}</a></h4>
+          <img style="width:75px;height:75px;" src="{{this.img}}">
+          <p>${{this.price}}</p>
+          {{#if this.stockAvailable}}
+          <p>Hay stock</p>
+          {{else}}
+          <p>No hay stock</p>
+          {{/if}}
+        </div>
+      {{/each}}
+    {{/if}}
+    {{#if products.stock.equal}}
+      <h3>Productos en stock</h3>
+      {{#each products.stock.equal}}
+        <div style="padding-bottom: 10px;">
+          <h4><a href="{{this.productUrl}}">{{this.name}}</a></h4>
+          <img style="width:75px;height:75px;" src="{{this.img}}">
+          <p>${{this.price}}</p>
+          {{#if this.stockAvailable}}
+          <p>Hay stock</p>
+          {{else}}
+          <p>No hay stock</p>
+          {{/if}}
+        </div>
+      {{/each}}
+    {{/if}}
+    {{#if products.stock.higher}}
+      <h3>Productos mas caros</h3>
+      {{#each products.stock.higher}}
+        <div style="padding-bottom: 10px;">
+          <h4><a href="{{this.productUrl}}">{{this.name}}</a></h4>
+          <img style="width:75px;height:75px;" src="{{this.img}}">
+          <p>${{this.price}}</p>
+          {{#if this.stockAvailable}}
+          <p>Hay stock</p>
+          {{else}}
+          <p>No hay stock</p>
+          {{/if}}
+        </div>
+      {{/each}}
+  {{/if}}
+  {{#if products.notStock}}
+    <h3>Productos sin stock</h3>
+    {{#each products.notStock}}
+      <div style="padding-bottom: 10px;">
+        <h4><a href="{{this.productUrl}}">{{this.name}}</a></h4>
+        <img style="width:75px;height:75px;" src="{{this.img}}">
+        <p>${{this.price}}</p>
+        {{#if this.stockAvailable}}
+        <p>Hay stock</p>
+        {{else}}
+        <p>No hay stock</p>
+        {{/if}}
+      </div>
+    {{/each}}
+  {{/if}}
+{{else}}
+  <p>No hay Productos</p>
+{{/if}}

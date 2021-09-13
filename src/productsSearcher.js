@@ -16,7 +16,7 @@ const DEFAULT_VIEWPORT = {
   height: 4000,
   deviceScaleFactor: 1,
 };
-
+//This function get all products from a search value
 async function  productsSearcher(search,sites) { 
   //launch puppeteer and creating an Incognito Browser
 	const browser = await puppeteer.launch({headless:true,defaultViewport: DEFAULT_VIEWPORT})
@@ -24,8 +24,8 @@ async function  productsSearcher(search,sites) {
   let products = []; 
   const promises = sites.map(async (v) =>{//i prefeer map because it makes all at once
     const page = await context.newPage()//Creating new tabs
+    const site = v;
     try{
-      const site = v;
       await page.goto(site.url,{waitUntil:['domcontentloaded', 'networkidle2']})
       /*
         We contemplate two cases. 
@@ -103,7 +103,7 @@ async function  productsSearcher(search,sites) {
       await page.close()//closing tab
       return result;
       }catch(err){
-        console.log(err);
+        console.error('Site: '+site.name,err);
         await page.close()
         return null;//if there is an error in all of that, we'll return null. Sometimes a site might not work or might be slow
       } 
@@ -111,9 +111,11 @@ async function  productsSearcher(search,sites) {
 
   await Promise.all(promises).then((v)=>{
     products = v.flat(1)
+    products = products.filter(v=>v)
     browser.close()
     //Yeah i sort it here
-    products.sort((a, b) =>   b.stockAvailable - a.stockAvailable || parseFloat(parseLocaleNumber(a.price,"en")) - parseFloat(parseLocaleNumber(b.price,"en")))
+    if(products)
+      products.sort((a, b) =>   b.stockAvailable - a.stockAvailable || parseFloat(parseLocaleNumber(a.price,"en")) - parseFloat(parseLocaleNumber(b.price,"en")))
   })
   return products
 }

@@ -4,7 +4,7 @@ require('./models/sites.js');
 require('./models/search.js');
 const Sites = mongoose.model('sites');
 const Search = mongoose.model('search');
-const { productsSearcher } = require('./lib/productsSearcher.js')
+const { productsSearcher } = require('./src/productsSearcher.js')
 
 const getSites = async (req, res, next) => {
   try {

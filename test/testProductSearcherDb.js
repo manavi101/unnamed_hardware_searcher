@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Site = require('../models/site.js');
 const Search = require('../models/search.js');
-const { productsSearcher } = require('../lib/productsSearcher.js')
+const { productsSearcher } = require('../src/productsSearcher.js')
 require('dotenv').config()
 
 const search = process.argv[2]
@@ -18,12 +18,11 @@ if (!search){
     if(!result){
       const products = await productsSearcher(search, sites)
       await Search.updateOne({value:search},{value:search,products:products},{upsert:true,setDefaultsOnInsert:true})
-      await mongoose.disconnect()
       console.log(products)
     }else{
-      await mongoose.disconnect()
       console.log(result.products)
     }
+    await mongoose.disconnect()
   }catch(err){
     console.log(err)
   }

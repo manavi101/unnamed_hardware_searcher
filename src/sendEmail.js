@@ -1,7 +1,7 @@
 const nodemailer = require("nodemailer");
 require('dotenv').config()
 
-function sendEmail(to,subject,body){
+async function sendEmail(to,subject,body){
   const transport = nodemailer.createTransport({
     host: "smtp.office365.com", // hostname
     secureConnection: false, // TLS requires secureConnection to be false
@@ -14,19 +14,13 @@ function sendEmail(to,subject,body){
         ciphers:'SSLv3'
     }
   })
-  const mailOptions = {
+  let mailOptions = {
     from: process.env.EMAIL_USER,
-    to: to,
+    bcc: to,
     subject: subject,
     html: body
   }
-  transport.sendMail(mailOptions, function(error){
-    if (error){
-        throw error;
-    } else {
-        return true;
-    }
-  })
+  await transport.sendMail(mailOptions)
 }
 
 module.exports = {

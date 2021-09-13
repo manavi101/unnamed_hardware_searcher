@@ -1,5 +1,5 @@
 const fs = require('fs')
-const { productsSearcher } = require('../lib/productsSearcher.js')
+const { productsSearcher } = require('../src/productsSearcher.js')
 
 let rawdata = fs.readFileSync('sites.json')
 let sites = JSON.parse(rawdata)

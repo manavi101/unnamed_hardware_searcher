@@ -3,8 +3,8 @@ const handlebars = require("handlebars")
 const mongoose = require('mongoose')
 require('dotenv').config()
 
-const { productsSearcher } = require('../lib/productsSearcher.js')
-const { sendEmail } = require('../lib/sendEmail.js')
+const { productsSearcher } = require('../src/productsSearcher.js')
+const { sendEmail } = require('../src/sendEmail.js')
 let rawdata = fs.readFileSync('../config/sites.json')
 let sites = JSON.parse(rawdata)
 

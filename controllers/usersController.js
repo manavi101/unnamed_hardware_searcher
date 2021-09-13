@@ -116,37 +116,19 @@ const login = async (req, res, next) => {
   const { email, password } = req.body
 
   let existingUser
-  try {
-    existingUser = await User.findOne({email}).select('+password')
-  } catch (error) {
-    return next(
-      new HttpError('Logging in failed, please try again later.', 500)
-    )
-  }
-
-  if(!existingUser) {
-    return next(
-      new HttpError('Invalid credentials, could not log you in.', 401)
-    )
-  }
-  
   let isValidPassword = false
-  try {
-    isValidPassword = await bcrypt.compare(password, existingUser.password)
-  } catch (error) {
-    return next(
-      new HttpError('Could not log you in, please check you credentials and try again.', 500)
-    )
-  }
-
-  if(!isValidPassword) {
-    return next(
-      new HttpError('Invalid credentials, could not log you in.', 401)
-    )
-  }
-
   let token
   try {
+    existingUser = await User.findOne({email}).select('+password')
+
+    if(!existingUser)
+      return next(new HttpError('Invalid credentials, could not log you in.', 401))
+    
+    isValidPassword = await bcrypt.compare(password, existingUser.password)
+
+    if(!isValidPassword)
+      return next(new HttpError('Invalid credentials, could not log you in.', 401))
+    
     token = jwt.sign(
       { 
         userId: existingUser.id, 
@@ -160,11 +142,9 @@ const login = async (req, res, next) => {
     )
   } catch (error) {
     return next(
-      new HttpError('Logging in failed, please try again.', 500)
+      new HttpError('Logging in failed, please try again later.', 500)
     )
   }
-
-
   res.json({
     token
   })
@@ -176,20 +156,12 @@ const deleteUser = async (req, res, next) => {
   let user
   try {
     user = await User.findById(id)
-  } catch (error) {
-    return next(
-      new HttpError('Something went wrong, could not delete user.', 500)
-    )
-  }
-
-  try {
     await user.remove()
   } catch (error) {
     return next(
       new HttpError('Something went wrong, could not delete user.', 500)
     )
   }
-
   res.status(200).json({message: "Deleted user."})
 }
 
